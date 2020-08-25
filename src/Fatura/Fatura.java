@@ -6,7 +6,7 @@ public class Fatura {
     private String codigo;
     private String descricao;
 
-    public Fatura(int quantidade, float valor, String codigo, String descricao){
+    public Fatura(int quantidade, float valor, String codigo, String descricao) {
         this.setQuantidade(quantidade);
         this.setValor(valor);
         this.setCodigo(codigo);
