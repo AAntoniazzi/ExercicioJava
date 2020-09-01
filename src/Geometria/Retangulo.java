@@ -2,7 +2,7 @@ package Geometria;
 
 public class Retangulo extends Forma {
     protected float base;
-    protected double altura;
+    protected float altura;
 
     public Retangulo(float base, float altura) {
         super();
@@ -24,11 +24,11 @@ public class Retangulo extends Forma {
         this.base = base;
     }
 
-    public double getAltura() {
+    public float getAltura() {
         return altura;
     }
 
-    public void setAltura(double altura) {
+    public void setAltura(float altura) {
         this.altura = altura;
     }
 }
