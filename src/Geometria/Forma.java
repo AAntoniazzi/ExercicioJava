@@ -12,10 +12,20 @@ public abstract class Forma {
         this.setPreenchido(preenchido);
     }
 
-    public void getArea() {
+    @Override
+    public String toString() {
+        return "Forma{" +
+                "cor='" + cor + '\'' +
+                ", preenchido=" + preenchido +
+                '}';
     }
 
-    public void getPerimetro() {
+    public double getArea() {
+        return 0;
+    }
+
+    public double getPerimetro() {
+        return 0;
     }
 
     public String getCor() {
