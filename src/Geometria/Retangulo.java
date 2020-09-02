@@ -37,7 +37,7 @@ public class Retangulo extends Forma {
 
     @Override
     public double getPerimetro() {
-        return 2 * (base * altura);
+        return 2 * (base + altura);
     }
 
     public double getBase() {

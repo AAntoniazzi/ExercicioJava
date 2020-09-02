@@ -39,4 +39,10 @@ public class Circulo extends Forma {
         double pi = 3.1416;
         return pi * (raio * raio);
     }
+
+    @Override
+    public double getPerimetro() {
+        double pi = 3.1416;
+        return 2 * pi * raio;
+    }
 }
